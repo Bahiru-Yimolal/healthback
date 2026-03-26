@@ -1,0 +1,11 @@
+require('dotenv').config({ path: "./src/config/.env" });
+
+module.exports = {
+  development: {
+    username: process.env.DB_USER || "postgres",
+    password: process.env.DB_PASSWORD || "1234",
+    database: process.env.DB_NAME || "health_db",
+    host: process.env.DB_HOST || "127.0.0.1",
+    dialect: "postgres"
+  }
+};
