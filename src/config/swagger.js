@@ -11,8 +11,8 @@ const swaggerDefinition = {
   },
   servers: [
     {
-      url: "http://localhost:5000/api",
-      // url: "https://servicebackend.ilul-tech.com/api",
+      // url: "http://localhost:5000/api",
+      url: "https://healthback.ilul-tech.com/api",
       description: "Development server",
     },
   ],
